@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.home-container{
+    text-align: center;
+    margin: auto;
+}
+.home-heading-link {
+    text-decoration: none;
+}
+.home-heading{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: rgb(5, 5, 56);
+}
+
+.home-btn-section{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.home-btn-section button{
+    width: 100px;
+   height: 35px;
+   margin-top: 8px;
+   background-color: rgb(5, 5, 56);
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   border: none;
+   border-radius: 10px;
+}
