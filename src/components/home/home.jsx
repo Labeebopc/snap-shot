@@ -9,7 +9,8 @@ const Home = () => {
                 <Link className="home-heading-link" to="/"><h2 className="home-heading">Snap Shot</h2></Link>
 
                 <section className="home-search-section">
-                    "//Search section"
+                    <input type="text" placeholder="Search...." />
+                    <button><i className="fa fa-search-plus"></i></button>
                 </section>
 
                 <section className="home-btn-section">
