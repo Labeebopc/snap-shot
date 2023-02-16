@@ -15,7 +15,7 @@ function App() {
 
         <Routes>
         <Route path='/' element={<Mountains />} />
-          <Route path='/mountains' element={<Mountains />} />
+          <Route path='/' element={<Mountains />} />
           <Route path='/beaches' element={<Beaches/>} />
           <Route path='/birds' element={<Birds/>} />
           <Route path='/foods' element={<Foods/>} />

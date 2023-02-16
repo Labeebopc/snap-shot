@@ -1,8 +1,18 @@
 import React from "react";
+import "./birds.css"
 
 const Birds=()=>{
     return(
-        <>Birds Page Will be Availbale Soon !!!</>
+        <>
+            <section className="birds-container">
+                <h3>Bird Pictures</h3>
+
+                <section className="birds-images">
+
+                </section>
+            </section>
+
+        </>
     )
 }
 

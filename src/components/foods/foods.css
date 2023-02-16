@@ -1,0 +1,13 @@
+.foods-container{
+    width: 80%;
+    border: 1px solid grey;
+    margin: auto;
+    padding: 10px;
+}
+
+.foods-container h3{
+    text-align: center;
+    margin-top: -10px;
+    color: rgb(5, 5, 56);
+    font-weight: bold;
+}
