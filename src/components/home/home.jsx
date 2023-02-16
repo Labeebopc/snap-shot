@@ -14,7 +14,7 @@ const Home = () => {
                 </section>
 
                 <section className="home-btn-section">
-                    <Link><button to="/mountains">Mountain</button></Link>
+                    <Link to="/"><button>Mountain</button></Link>
                     <Link to="/beaches"><button>Beaches</button></Link>
                     <Link to="/birds"><button>Birds</button></Link>
                     <Link to="/foods"><button>Food</button></Link>

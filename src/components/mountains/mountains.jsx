@@ -1,8 +1,18 @@
 import React from "react";
+import "./mountains.css"
 
 const Mountains = () => {
     return (
-        <>Mountain Page Will be Availbale Soon !!!</>
+        <>
+            <section className="mountains-container">
+                <h3>Mountain Pictures</h3>
+
+                <section className="mountains-images">
+
+                </section>
+            </section>
+
+        </>
     )
 }
 
