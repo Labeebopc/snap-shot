@@ -58,3 +58,37 @@
    border: none;
    border-radius: 10px;
 }
+
+
+/* For Search Component */
+
+.search-container{
+    width: 80%;
+    margin: auto;
+}
+
+.search-container h3{
+    text-align: center;
+    margin-top: -10px;
+    color: rgb(5, 5, 56);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.search-images {
+    border: 1px solid grey;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: auto;
+
+}
+
+.search-images img {
+    object-fit: cover;
+    width: 100%;
+    border: 1px solid grey;
+    height: 150px;
+}
