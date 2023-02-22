@@ -16,7 +16,7 @@ const Home = () => {
         }
 
         else{
-            alert("Please Enter an Input")
+            //alert("Please Enter an Input")
             isSetInput(true)
             setSearch(input)
             setInput("")
@@ -42,7 +42,7 @@ const Home = () => {
                 </section>
 
 
-                {/* {
+                {
                     isInput && 
 
                     <section className="search-container">
@@ -52,7 +52,7 @@ const Home = () => {
                             <Card value={search}/>
                         </section>
                     </section>
-                } */}
+                }
 
             </section>
         </>
